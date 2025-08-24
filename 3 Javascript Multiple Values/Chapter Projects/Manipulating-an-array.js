@@ -1,11 +1,9 @@
 const theList = ['Laurence', 'Svekis', true, 35, null, undefined, {test: 'one', score: 55}, ['one', 'two']];
-// theList.splice(2,6);
-// theList.shift();
-// theList.splice(0,0,"FIRST");
-// theList.push("MIDDLE", "hello World", "LAST");
-// console.log(theList);
-// theList.length=2;
-// console.log(theList);
+theList.splice(2,6);
+theList.shift();
+theList.splice(0,0,"FIRST");
+theList.push("MIDDLE", "hello World", "LAST");
+console.log(theList);
 
 
 
